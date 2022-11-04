@@ -8,5 +8,5 @@ sl=[]
 for i in l:
     if l.count(i)==1:
         sl.append(i)
-sl=sorted(sl)
+#sl=sorted(sl)
 print(len(sl))
