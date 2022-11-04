@@ -6,7 +6,7 @@ for i in s:
     l.append(i)
 sl=[]
 for i in l:
-    if l.count(i)==1:
+    if i not in sl:
         sl.append(i)
 sl=sorted(sl)
 for i in sl:
